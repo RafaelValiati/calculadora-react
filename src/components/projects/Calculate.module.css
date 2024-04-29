@@ -1,0 +1,33 @@
+.form{
+    margin:auto;
+    background-color: rgba(149, 196, 228, 0.562);
+}
+
+.form label,
+.form input,
+.form select{
+    background-color: aliceblue;
+    padding: 0.5em 1em 0.5em 1em;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 1.2em;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+.form label{
+    font-size: 1em;
+    text-align: left;
+    
+}
+
+.form input[type="submit"],
+.form select{
+    cursor: pointer;
+} 
+
+.form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(101, 204, 170);
+} 

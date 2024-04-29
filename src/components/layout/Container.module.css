@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.min-height{
+    min-height: 100vh;
+    background-image: url(../../../public/nature.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.column{
+    flex-direction: column;
+    width: fit-content;
+    padding: 2em;
+    justify-content: flex-start;
+}
